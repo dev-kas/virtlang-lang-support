@@ -1,0 +1,25 @@
+{
+  "name": "virtlang-lang-support",
+  "displayName": "VirtLang Language Support for VS Code",
+  "description": "VirtLang Language Support for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "virtlang",
+      "aliases": ["VirtLang", "virtlang"],
+      "extensions": [".vl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "virtlang",
+      "scopeName": "source.vl",
+      "path": "./syntaxes/virtlang.tmLanguage.json"
+    }]
+  }
+}
