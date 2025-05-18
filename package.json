@@ -1,25 +1,42 @@
 {
-  "name": "virtlang-lang-support",
-  "displayName": "VirtLang Language Support for VS Code",
-  "description": "VirtLang Language Support for Visual Studio Code",
-  "version": "0.0.1",
+  "name": "xel-lang-support",
+  "displayName": "Xel Syntax & Language Tools",
+  "description": "Enhance your development workflow with comprehensive support for the Xel programming language in Visual Studio Code including syntax highlighting, language configuration, and grammar integration.",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "keywords": [
+    "xel",
+    "xel-lang",
+    "programming language",
+    "language support",
+    "syntax highlighting",
+    "vscode"
+  ],
+  "publisher": "dev-kas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-kas/xel-lang-support"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-kas/xel-lang-support/issues"
+  },
+  "homepage": "https://github.com/dev-kas/xel-lang-support#readme",
   "contributes": {
     "languages": [{
-      "id": "virtlang",
-      "aliases": ["VirtLang", "virtlang"],
-      "extensions": [".vl"],
+      "id": "xel",
+      "aliases": ["Xel", "xel"],
+      "extensions": [".xel"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "virtlang",
-      "scopeName": "source.vl",
-      "path": "./syntaxes/virtlang.tmLanguage.json"
+      "language": "xel",
+      "scopeName": "source.xel",
+      "path": "./syntaxes/xel.tmLanguage.json"
     }]
   }
 }
