@@ -1,0 +1,57 @@
+{
+    "Class Declaration": {
+        "prefix": "class",
+        "body": [
+            "class ${1:ClassName} {",
+            "    ${0:// class body}",
+            "}"
+        ],
+        "description": "Create a class declaration"
+    },
+    "Class Constructor": {
+        "prefix": "ctor",
+        "body": [
+            "public constructor(${1:args}) {",
+            "    ${0:// constructor body}",
+            "}"
+        ],
+        "description": "Create a class constructor",
+        "scope": "source.xel meta.class"
+    },
+    "Class Method": {
+        "prefix": "meth",
+        "body": [
+            "public ${1:methodName}(${2:args}) {",
+            "    ${0:// method body}",
+            "}"
+        ],
+        "description": "Create a class method",
+        "scope": "source.xel meta.class"
+    },
+    "Class Property": {
+        "prefix": "prop",
+        "body": [
+            "public ${1:propertyName} = ${2:value}"
+        ],
+        "description": "Create a class property",
+        "scope": "source.xel meta.class"
+    },
+    "Class Private Method": {
+        "prefix": "pmeth",
+        "body": [
+            "private ${1:methodName}(${2:args}) {",
+            "    ${0:// method body}",
+            "}"
+        ],
+        "description": "Create a private class method",
+        "scope": "source.xel meta.class"
+    },
+    "Class Private Property": {
+        "prefix": "pprop",
+        "body": [
+            "private ${1:propertyName} = ${2:value}"
+        ],
+        "description": "Create a private class property",
+        "scope": "source.xel meta.class"
+    }
+}

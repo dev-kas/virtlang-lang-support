@@ -14,7 +14,6 @@ This extension provides official syntax highlighting and language recognition fo
 
 * Full TextMate grammar for `.xel` source files
 * Highlighting for:
-
   * Language keywords (`let`, `fn`, `if`, `class`, etc.)
   * Function declarations and calls
   * Strings with escape sequences
@@ -24,6 +23,12 @@ This extension provides official syntax highlighting and language recognition fo
   * Operators (`=`, `==`, `+`, etc.)
 * File extension `.xel` is automatically recognized
 * Language mode switch to Xel from the VS Code status bar
+* Predefined code snippets for:
+  * Variable declarations (`let`, `const`)
+  * Function definitions
+  * Class declarations and members
+  * Control structures (`if`, `while`, `try-catch`)
+  * Module imports
 
 ---
 
@@ -36,6 +41,10 @@ This extension provides official syntax highlighting and language recognition fo
 3. Search for **Xel Syntax & Language Tools**
 4. Click **Install**
 5. Open or create a `.xel` file to get started
+
+### Using Snippets
+
+Begin typing any Xel keyword (e.g. `fn`, `class`, `try`) and select a snippet from the auto-suggest menu. Snippets help you scaffold common code patterns faster and with fewer errors.
 
 ---
 
@@ -59,7 +68,6 @@ This extension provides official syntax highlighting and language recognition fo
 Planned improvements for future versions:
 
 * Language Server Protocol (LSP) support for diagnostics, completion, and more
-* Snippets for common Xel patterns
 * Indentation and formatting rules
 * Hover tooltips and go-to-definition
 * Code linting and warnings

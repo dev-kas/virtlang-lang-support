@@ -1,0 +1,9 @@
+{
+    "Import": {
+        "prefix": "import",
+        "body": [
+            "const ${1:moduleName} = import(\"${1:module}\")"
+        ],
+        "description": "Create an import statement"
+    }
+}

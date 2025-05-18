@@ -37,6 +37,25 @@
       "language": "xel",
       "scopeName": "source.xel",
       "path": "./syntaxes/xel.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "xel",
+      "path": "./snippets/basic/control-structures.json"
+    }, {
+      "language": "xel",
+      "path": "./snippets/basic/classes.json"
+    }, {
+      "language": "xel",
+      "path": "./snippets/basic/functions.json"
+    }, {
+      "language": "xel",
+      "path": "./snippets/basic/variables.json"
+    }, {
+      "language": "xel",
+      "path": "./snippets/basic/error-handling.json"
+    }, {
+      "language": "xel",
+      "path": "./snippets/basic/imports.json"
     }]
   }
 }

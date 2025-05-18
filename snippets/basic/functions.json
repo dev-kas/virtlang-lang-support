@@ -1,0 +1,11 @@
+{
+    "Function Declaration": {
+        "prefix": "fn",
+        "body": [
+            "fn ${1:funcName}(${2:args}) {",
+            "    ${0:// code}",
+            "}"
+        ],
+        "description": "Create a function declaration"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "Variable Declaration": {
+        "prefix": "let",
+        "body": [
+            "let ${1:varName} = ${2:value}"
+        ],
+        "description": "Create a variable declaration"
+    },
+    "Constant Variable Declaration": {
+        "prefix": "const",
+        "body": [
+            "const ${1:varName} = ${2:value}"
+        ],
+        "description": "Create a constant variable declaration"
+    }
+}

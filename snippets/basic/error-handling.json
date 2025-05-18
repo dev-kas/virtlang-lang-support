@@ -1,0 +1,13 @@
+{
+    "Try Catch": {
+        "prefix": "try",
+        "body": [
+            "try {",
+            "    ${1:// risky code}",
+            "} catch e {",
+            "    ${2:// error handling code}",
+            "}"
+        ],
+        "description": "Create a try-catch block"
+    }
+}
