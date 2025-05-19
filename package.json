@@ -2,7 +2,7 @@
   "name": "xel-lang-support",
   "displayName": "Xel Syntax & Language Tools",
   "description": "Enhance your development workflow with comprehensive support for the Xel programming language in Visual Studio Code including syntax highlighting, language configuration, and grammar integration.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "out/extension.js",
   "engines": {
     "vscode": "^1.98.0"
