@@ -1,2 +1,122 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Distribution / Build
+out/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+*.log
+
+# VS Code specific
+.vscode-test/
+
+# Coverage reports
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Local development
+*.local
+*.tmp
+*.bak
+
+# Debug files
+*.pdb
+*.map
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Cache
+.cache
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor backup files
+*.swp
+*.swo
+*.swn
+
+# Local development settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+*.log
+
+# VS Code specific
+.vscode-test/
+
+# Coverage reports
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Local development
+*.local
+*.tmp
+*.bak
+
+# Debug files
+*.pdb
+*.map
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 *.vsix
